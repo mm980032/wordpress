@@ -1,0 +1,67 @@
+[17-Apr-2024 08:52:10 UTC] PHP Fatal error:  Uncaught Error: Class "ArticleAddFun\Controller\Controller" not found in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Common/ShortCode.php:11
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php(12): App\Common\ShortCode::builderCategoryListPage()
+#1 /var/www/wordpress/wp-admin/includes/plugin.php(2389): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-admin/includes/plugin.php(675): plugin_sandbox_scrape('ArticleAddFun/i...')
+#3 /var/www/wordpress/wp-admin/plugins.php(60): activate_plugin('ArticleAddFun/i...', 'http://wordpres...', false)
+#4 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Common/ShortCode.php on line 11
+[17-Apr-2024 10:03:44 UTC] PHP Warning:  Undefined array key 0 in /var/www/wordpress/wp-includes/plugin.php on line 1001
+[17-Apr-2024 10:03:44 UTC] PHP Warning:  Undefined array key 0 in /var/www/wordpress/wp-includes/plugin.php on line 1004
+[17-Apr-2024 10:03:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /var/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/wordpress/wp-settings.php(695): do_action('init')
+#3 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-includes/class-wp-hook.php on line 324
+[17-Apr-2024 10:03:44 UTC] PHP Warning:  Undefined array key 0 in /var/www/wordpress/wp-includes/plugin.php on line 1001
+[17-Apr-2024 10:03:44 UTC] PHP Warning:  Undefined array key 0 in /var/www/wordpress/wp-includes/plugin.php on line 1004
+[17-Apr-2024 10:03:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /var/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/wordpress/wp-settings.php(695): do_action('init')
+#3 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-includes/class-wp-hook.php on line 324
+[17-Apr-2024 10:04:02 UTC] PHP Parse error:  syntax error, unexpected token ")", expecting "{" in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php on line 11
+[17-Apr-2024 10:18:38 UTC] PHP Fatal error:  Uncaught Error: Class "ShortCode" not found in /var/www/wordpress/wp-content/themes/twentytwentyfour/functions.php:209
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(324): {closure}('')
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/wordpress/wp-settings.php(717): do_action('wp_loaded')
+#4 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#7 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#8 {main}
+  thrown in /var/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 209
+[17-Apr-2024 10:18:38 UTC] PHP Fatal error:  Uncaught Error: Class "ShortCode" not found in /var/www/wordpress/wp-content/themes/twentytwentyfour/functions.php:209
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(324): {closure}('')
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/wordpress/wp-settings.php(717): do_action('wp_loaded')
+#4 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#7 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#8 {main}
+  thrown in /var/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 209
+[18-Apr-2024 01:55:13 UTC] PHP Warning:  Undefined variable $response in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticleCategoryListPage.php on line 39
+[18-Apr-2024 03:51:43 UTC] PHP Warning:  Undefined array key "id" in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 2
+[18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1855
