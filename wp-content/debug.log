@@ -65,3 +65,75 @@ Stack trace:
 [18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
 [18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
 [18-Apr-2024 03:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1855
+[18-Apr-2024 07:58:34 UTC] PHP Warning:  Undefined array key "id" in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 2
+[18-Apr-2024 07:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 07:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 07:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 07:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 07:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[18-Apr-2024 07:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php:22) in /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1855
+[18-Apr-2024 08:05:20 UTC] PHP Parse error:  syntax error, unexpected token "{" in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Common/Event.php on line 8
+[18-Apr-2024 08:05:36 UTC] PHP Fatal error:  Uncaught Error: Non-static method App\Common\Event::articlePageRedirection() cannot be called statically in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php:11
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(517): include_once()
+#1 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#4 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php on line 11
+[18-Apr-2024 08:06:29 UTC] PHP Fatal error:  Uncaught Error: Non-static method App\Common\Event::articlePageRedirection() cannot be called statically in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php:11
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(517): include_once()
+#1 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#4 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php on line 11
+[18-Apr-2024 08:06:44 UTC] PHP Fatal error:  Uncaught Error: Non-static method App\Common\Event::articlePageRedirection() cannot be called statically in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php:11
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(517): include_once()
+#1 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#4 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php on line 11
+[18-Apr-2024 08:06:56 UTC] PHP Fatal error:  Uncaught Error: Non-static method App\Common\Event::articlePageRedirection() cannot be called statically in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php:11
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(517): include_once()
+#1 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php on line 11
+[18-Apr-2024 08:06:56 UTC] PHP Notice:  呼叫 is_embed 函式的方式不正確。在執行查詢前，無法使用條件式查詢標記；因此在執行查詢前，條件式查詢標記只會傳回 false。 請參閱〈<a>WordPress 的偵錯功能</a>〉以進一步了解相關資訊。 (這項訊息新增於 3.1.0 版) in /var/www/wordpress/wp-includes/functions.php on line 6078
+[18-Apr-2024 08:06:56 UTC] PHP Notice:  呼叫 is_search 函式的方式不正確。在執行查詢前，無法使用條件式查詢標記；因此在執行查詢前，條件式查詢標記只會傳回 false。 請參閱〈<a>WordPress 的偵錯功能</a>〉以進一步了解相關資訊。 (這項訊息新增於 3.1.0 版) in /var/www/wordpress/wp-includes/functions.php on line 6078
+[18-Apr-2024 08:06:58 UTC] PHP Fatal error:  Uncaught Error: Non-static method App\Common\Event::articlePageRedirection() cannot be called statically in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php:11
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(517): include_once()
+#1 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php on line 11
+[18-Apr-2024 08:06:58 UTC] PHP Notice:  呼叫 is_embed 函式的方式不正確。在執行查詢前，無法使用條件式查詢標記；因此在執行查詢前，條件式查詢標記只會傳回 false。 請參閱〈<a>WordPress 的偵錯功能</a>〉以進一步了解相關資訊。 (這項訊息新增於 3.1.0 版) in /var/www/wordpress/wp-includes/functions.php on line 6078
+[18-Apr-2024 08:06:58 UTC] PHP Notice:  呼叫 is_search 函式的方式不正確。在執行查詢前，無法使用條件式查詢標記；因此在執行查詢前，條件式查詢標記只會傳回 false。 請參閱〈<a>WordPress 的偵錯功能</a>〉以進一步了解相關資訊。 (這項訊息新增於 3.1.0 版) in /var/www/wordpress/wp-includes/functions.php on line 6078
+[18-Apr-2024 08:06:58 UTC] PHP Fatal error:  Uncaught Error: Non-static method App\Common\Event::articlePageRedirection() cannot be called statically in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php:11
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(517): include_once()
+#1 /var/www/wordpress/wp-config.php(96): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/ArticleAddFun/index.php on line 11
+[18-Apr-2024 08:06:58 UTC] PHP Notice:  呼叫 is_embed 函式的方式不正確。在執行查詢前，無法使用條件式查詢標記；因此在執行查詢前，條件式查詢標記只會傳回 false。 請參閱〈<a>WordPress 的偵錯功能</a>〉以進一步了解相關資訊。 (這項訊息新增於 3.1.0 版) in /var/www/wordpress/wp-includes/functions.php on line 6078
+[18-Apr-2024 08:06:58 UTC] PHP Notice:  呼叫 is_search 函式的方式不正確。在執行查詢前，無法使用條件式查詢標記；因此在執行查詢前，條件式查詢標記只會傳回 false。 請參閱〈<a>WordPress 的偵錯功能</a>〉以進一步了解相關資訊。 (這項訊息新增於 3.1.0 版) in /var/www/wordpress/wp-includes/functions.php on line 6078
+[18-Apr-2024 08:24:03 UTC] PHP Warning:  Undefined array key "id" in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 2
+[18-Apr-2024 08:24:04 UTC] PHP Warning:  Undefined array key "id" in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 2
+[18-Apr-2024 08:44:45 UTC] PHP Warning:  Undefined variable $term_taxonomy_id in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 20
+[18-Apr-2024 08:44:46 UTC] PHP Warning:  Undefined variable $term_taxonomy_id in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 20
+[18-Apr-2024 08:44:46 UTC] PHP Warning:  Undefined variable $term_taxonomy_id in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 20
+[18-Apr-2024 08:51:14 UTC] PHP Warning:  Undefined variable $term_taxonomy_id in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 21
+[18-Apr-2024 08:51:14 UTC] PHP Warning:  Undefined variable $term_taxonomy_id in /var/www/wordpress/wp-content/plugins/ArticleAddFun/app/Views/Article/ArticlesListPage.php on line 21

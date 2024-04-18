@@ -1,4 +1,5 @@
 <?php
+use App\Common\Event;
 use App\Common\ShortCode;
 /*
 Plugin Name: Article Add Function
@@ -7,8 +8,7 @@ Description: 1.取得當前所有分類 2.取得分類底下所有文章  3.文�
 
 require __DIR__ . '/vendor/autoload.php';
 
+Event::articlePageRedirection();
 
-// add_action('init', function(){
-    ShortCode::builderCategoriesPage();
-    ShortCode::builderCategoryArticlesPage();
-// });
+ShortCode::builderCategoriesPage();
+ShortCode::builderCategoryArticlesPage();

@@ -1,7 +1,3 @@
-<?php
-$term_taxonomy_id = $_GET['id']; 
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,10 +12,13 @@ $term_taxonomy_id = $_GET['id'];
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
-        
+         var defultSlug = 'article-categories';
+        var pathName = window.location.pathname;
+        var splitArr = pathName.split('/');
+        var postType = splitArr[splitArr.indexOf(defultSlug) + 1];
         $(document).ready(function() {
             $.ajax({
-                url: 'http://wordpress-laravel.com/api/article/category/<?php echo $term_taxonomy_id?>',
+                url: 'http://wordpress-laravel.com/api/articles/' + postType,
                 type: 'GET',
                 dataType: 'json',
                 success: function(response) {
