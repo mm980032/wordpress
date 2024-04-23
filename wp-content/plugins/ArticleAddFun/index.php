@@ -12,3 +12,4 @@ Event::articlePageRedirection();
 
 ShortCode::builderCategoriesPage();
 ShortCode::builderCategoryArticlesPage();
+ShortCode::builderArticlesPage();

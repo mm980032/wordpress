@@ -26,7 +26,7 @@
                             // 添加 <div class="container-fluid"> 元素
                             var containerElement = $('<div class="container-fluid justify-content-center"></div>');
                             // 添加 <a> 元素作為連結
-                            var linkElement = $(`<a class="navbar-brand" href="http://wordpress.example.com/article-categories/${item.slug}">${item.name}</a>`);
+                            var linkElement = $(`<a class="navbar-brand" href="http://wordpress.example.com/article-categories/${item.slug}/">${item.name}</a>`);
                             
                             // 將元素組合在一起
                             containerElement.append(linkElement);

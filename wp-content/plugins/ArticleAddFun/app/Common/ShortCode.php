@@ -3,9 +3,8 @@
 namespace App\Common;
 use App\Controllers\Controller;
 
-
 class ShortCode {
-    
+
     public static function builderCategoriesPage() {
 
         $controller = new Controller();
@@ -18,5 +17,12 @@ class ShortCode {
         $controller = new Controller();
 
         add_shortcode( "articlesList", [$controller, "showArticlesListPage"]);
+    }
+
+    public static function builderArticlesPage() {
+
+        $controller = new Controller();
+
+        add_shortcode( "articlesDetail", [$controller, "showArticlesDetailPage"]);
     }
 }
